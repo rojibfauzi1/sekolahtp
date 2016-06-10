@@ -1,0 +1,73 @@
+@font-face{
+	font-family: langdon;
+	src : url('../fonts/Langdon.otf');
+}
+
+/* .form-login{
+	background-color: red;
+	margin-top: 50px;
+} */
+
+.header h2{
+	color: #eee;
+	text-align: center;
+	background-color: #28292E;
+	padding: 10px;
+}
+.header{
+	background-color: #28292E;
+	padding-top: -20px;
+
+}
+.lingkaran {  
+	margin-top: 20px;
+	border: 3px solid #607D8B;
+    width:80px;  
+    height:80px;  
+     
+    border-radius:50%;  
+    overflow:hidden;
+    float: left; 
+}  
+.navigation{
+	background-color: #212121;
+	margin: 0;
+	height: 100%;
+	position: fixed;
+	float: left;
+}
+.navigation ul{
+	list-style: none;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: -40px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	color: #eee;
+	padding: 10px 10px;
+	margin: 0;
+	display: block;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.navigation ul li:hover{
+	background-color: #eeeeee;
+
+}
+.navigation ul li a:hover{
+	color: #212121;
+}
+ul li a{
+	font-size: 17px;
+}
+.gambar1{
+	background: url(http://brandflow.pl/wp-content/uploads/2015/08/p5.jpg) no-repeat center center fixed ;
+}
+#jumlah{
+	background-image: url(http://brandflow.pl/wp-content/uploads/2015/08/p5.jpg);
+}
+.content{
+	position: static;
+	height: 100%;
+}
